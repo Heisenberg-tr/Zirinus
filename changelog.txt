@@ -1,3 +1,2 @@
-What is new on version <ver>?
- • Just testing update mechanics
- • lel
+What is new on version 0.5 GIT?
+ • Initial release
