@@ -2,10 +2,10 @@
 Discord spam tool that made with Python
 
 # How to use
-> Module installation is automatic
+Module installation is automatic
 
-> Write your tokens to token.txt file.
-> If you want to spam with multiple tokens then go to new line
+Write your tokens to token.txt file.
+If you want to spam with multiple tokens then go to new line
 
 Write your channel ID to kanal.txt file.
 If you want to spam multiple channels just go to new line
@@ -21,7 +21,7 @@ If you want to spam multiple channels just go to new line
 - Token Generator
 
 # Known issues
-> If spam part stucked at starting then double check your token.txt and kanal.txt file they may be empty
+If spam part stucked at starting then double check your token.txt and kanal.txt file they may be empty
 
 
 
