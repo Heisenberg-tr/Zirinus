@@ -1,0 +1,3 @@
+What is new on version <ver>?
+ • Just testing update mechanics
+ • lel
