@@ -23,5 +23,6 @@ If you want to spam multiple channels just go to new line
 # Known issues
 If spam part stucked at starting then double check your token.txt and kanal.txt file they may be empty
 
+# MY DISCORD: Zirinˮ#0001
 
 
