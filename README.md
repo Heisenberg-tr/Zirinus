@@ -37,6 +37,9 @@ To use kore than one webhook, just go to new line
 # Known issues
 If spam part stucked at starting then double check your token.txt and kanal.txt file they may be empty
 
+# Why Encrypt Source Code? Token Logger?!?
+No, you can watch network traffic.
+
 # MY DISCORD: Zirinˮ#0001
 
 
