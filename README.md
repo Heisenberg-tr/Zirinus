@@ -41,5 +41,5 @@ If spam part stucked at starting then double check your token.txt and kanal.txt 
 No, you can watch network traffic.
 
 # MY DISCORD: Zirinˮ#0001
-
-
+# Please Join This Server For Support
+https://discord.gg/Mq873j65BD
