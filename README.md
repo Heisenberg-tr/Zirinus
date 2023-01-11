@@ -2,6 +2,7 @@
 Discord spam tool that made with Python
 
 # How to use
+## Spammer
 Module installation is automatic
 
 Write your tokens to token.txt file.
