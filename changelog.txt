@@ -1,3 +1,2 @@
-What is new on version 0.7 GIT?
- • New feature: Webhook Spammer
- • Removed some junk code
+What is new on version 0.7.1 GIT?
+ • Fixed webhook bug
