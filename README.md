@@ -30,6 +30,7 @@ To use kore than one webhook, just go to new line
 - Automatic update system
 - Encrypted source code to prevent malware clones of Zirinus
 - Ratelimit protection
+- Cross platform OS functions
 
 # Coming Features
 - Token Generator
