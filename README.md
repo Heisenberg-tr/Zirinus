@@ -3,7 +3,7 @@ Discord spam tool that made with Python
 
 # How to use
 ## Spammer
-Module installation is automatic
+**Module installation is automatic**
 
 Write your tokens to token.txt file.
 If you want to spam with multiple tokens then go to new line
@@ -38,7 +38,7 @@ To use kore than one webhook, just go to new line
 If spam part stucked at starting then double check your token.txt and kanal.txt file they may be empty
 
 # Why Encrypt Source Code? Token Logger?!?
-No, you can watch network traffic.
+No, you can watch **network traffic**.
 
 # MY DISCORD: Zirinˮ#0001
 # Please Join This Server For Support
