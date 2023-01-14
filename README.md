@@ -2,8 +2,8 @@
 Discord spam tool that made with Python
 
 # How to use
-## Spammer
 **Module installation is automatic**
+## Spammer
 
 Write your tokens to token.txt file.
 If you want to spam with multiple tokens then go to new line
