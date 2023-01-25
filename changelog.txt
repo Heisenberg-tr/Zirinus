@@ -1,2 +1,2 @@
-What is new on version 0.7.2 GIT?
- • Fixed not defined bug
+What is new on version 0.8 GIT?
+ • Unobfuscated file
