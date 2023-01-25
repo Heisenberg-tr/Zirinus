@@ -28,7 +28,6 @@ To use kore than one webhook, just go to new line
 - Ability to customize webhook avatar
 - Ability to customize webhook username
 - Automatic update system
-- Encrypted source code to prevent malware clones of Zirinus
 - Ratelimit protection
 - Cross platform OS functions
 
@@ -38,9 +37,8 @@ To use kore than one webhook, just go to new line
 # Known issues
 If spam part stucked at starting then double check your token.txt and kanal.txt file they may be empty
 
-# Why Encrypt Source Code? Token Logger?!?
-No, you can watch **network traffic**.
 
-# MY DISCORD: Zirinˮ#0001
+
+# MY DISCORD: Zirin Ausweldˮ#0001
 # Please Join This Server For Support
 https://discord.gg/napclan
