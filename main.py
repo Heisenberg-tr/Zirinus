@@ -1,4 +1,4 @@
-__seviye__ = "8"
+__seviye__ = "9"
 
 
 try:
@@ -68,20 +68,20 @@ try:
 	bl = open("revision.txt", "r")
 except:
 	print("Cannot read revision file.")
-	exit()
+	time.sleep(1000)
 
 try:
 	TOKENl = open("token.txt", "r").read().splitlines()
 	KANALl = open("kanal.txt", "r").read().splitlines()
 except:
 	print("File not found")
-	exit()
+	time.sleep(1000)
 	
 
 __checkrv__ = open("revision.txt", "r").read().splitlines()
 if __checkrv__[0] != __seviye__:
 	print("Make sure you re opened 'main.py' file in your terminal or code editor!")
-	exit()
+	time.sleep(1)
 	
 
 
@@ -157,7 +157,7 @@ try:
 	import string
 except:
 	print("Python is corrupted.")
-	exit()
+	time.sleep(1000)
 	
 
 
