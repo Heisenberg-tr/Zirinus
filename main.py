@@ -1,4 +1,4 @@
-__seviye__ = "9"
+__seviye__ = "8"
 
 
 try:
@@ -52,6 +52,7 @@ try:
 except:
 	print("Python is corrupted")
 
+import time
 
 
 
@@ -81,7 +82,7 @@ except:
 __checkrv__ = open("revision.txt", "r").read().splitlines()
 if __checkrv__[0] != __seviye__:
 	print("Make sure you re opened 'main.py' file in your terminal or code editor!")
-	time.sleep(1)
+	time.sleep(5)
 	
 
 
