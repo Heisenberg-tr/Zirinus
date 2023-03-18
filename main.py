@@ -701,7 +701,7 @@ def main_event(self = None, mess = None, notify = None):
 if __name__ == "__main__":
     # Uncomment this to prevent Zirinus from checking updates.
     #main_event(self=None)
-    main_event()
+    main_event(self=True)
 else:
     print("Not designed to import as a module")
     exit()
