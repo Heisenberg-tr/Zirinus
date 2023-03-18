@@ -1,4 +1,4 @@
-# Re-write will come soon!
+
 
 # Zirinus
 Discord spam tool that made with Python
