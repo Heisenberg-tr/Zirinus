@@ -225,9 +225,8 @@ def update_check_event():
         print("Updating...")
         print("Pulling file < main.py > ...", end = "")
         main_file = requests.get("https://raw.githubusercontent.com/Heisenberg-tr/Zirinus/main/main.py").text
-        print(main_file)
         print("DONE")
-        print("Writing to file...", end="")
+        print("Writing to file...")
         with open("main.py", "w") as file:
             file.write(main_file)
         with open("revision.txt", end="") as rev_file:
