@@ -232,7 +232,7 @@ def update_check_event():
         with open("main.py", "w") as file:
             file.write(main_file)
         with open("revision.txt", end="") as rev_file:
-            rev_file.write(get_revision[:1]
+            rev_file.write(get_revision[:1])
 
         print("DONE")
         print("Update is finished.")
