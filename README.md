@@ -7,37 +7,37 @@ Discord spam tool that made with Python
 **Module installation is automatic**
 ## Spammer
 
-Write your tokens to token.txt file.
+Write your tokens to tokens.txt file.
 If you want to spam with multiple tokens then go to new line
 
-Write your channel ID to kanal.txt file.
+Write your channel ID to channel_ids.txt file.
 If you want to spam multiple channels just go to new line
 
 ## Webhook Spammer
-Write your webhook username to webhook config/username.txt
-
-Write your webhook avatar url to webhook config/avatar-url.txt
-
 Write your webhook url to webhook config/webhook-url.txt
 
-To use kore than one webhook, just go to new line
+To use more than one webhook, just go to new line
 
 # Features
+- Ultimate webhook customization
+- Ability to view message content from terminal
+- Ability to send message from termimal
 - Ability to use more than one token
 - Ability to spam more than one channel
 - Ability to spam webhooks
 - Ability to spam more than one webhooks
 - Ability to customize webhook avatar
 - Ability to customize webhook username
+- Ability to customize webhook footer
+- Ability to customize webhook embed
 - Automatic update system
 - Ratelimit protection
 - Cross platform OS functions
 
 # Coming Features
-- Token Generator
+- Token Bruteforce
 
-# Known issues
-If spam part stucked at starting then double check your token.txt and kanal.txt file they may be empty
+
 
 
 
