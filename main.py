@@ -220,7 +220,7 @@ def update_check_event():
         get_revision = requests.get(url).text
     except:
         return
-    if int(get_revision[:1]) >  int(revision):
+    if int(get_revision) >  int(revision):
         print("Update Avalaible")
         print("Updating...")
         print("Pulling file < main.py > ...", end = "")
@@ -231,8 +231,7 @@ def update_check_event():
         with open("main.py", "w") as file:
             file.write(main_file)
         with open("revision.txt", end="") as rev_file:
-            rev_file.write(get_revision[:1])
-
+            rev_file.write(get_revision)
         print("DONE")
         print("Update is finished.")
         exit()
