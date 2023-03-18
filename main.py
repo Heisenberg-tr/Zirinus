@@ -5,7 +5,7 @@
 # Zirinus - main.py - 2023/2/28
 
 version = "1.0"
-revision = 9
+revision = 10
 
 zirinus = """
 
@@ -226,7 +226,6 @@ def update_check_event():
         print("Pulling file < main.py > ...", end = "")
         main_file = requests.get("https://raw.githubusercontent.com/Heisenberg-tr/Zirinus/main/main.py").text
         print(main_file)
-        
         print("DONE")
         print("Writing to file...", end="")
         with open("main.py", "w") as file:
