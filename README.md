@@ -1,7 +1,9 @@
+I am coming back to development after a very long 2 year break!
+
 
 
 # Zirinus
-Discord spam tool that made with Python
+Discord multi tool that made with Python
 
 # How to use
 **Module installation is automatic**
@@ -41,6 +43,4 @@ To use more than one webhook, just go to new line
 
 
 
-# MY DISCORD: Shellˮ#2687
-# Support Server
-## https://discord.gg/8scYSxxmkF
+
