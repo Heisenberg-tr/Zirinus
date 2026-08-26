@@ -1,8 +1,10 @@
 I am coming back to development after a very long 2 year break!
 
-DM instagram @yanastazya for support
+DM instagram @yknpn for support
 
-https://instagram.com/yanastazya
+t.me/Zirinus
+
+https://instagram.com/yknpn
 
 
 # Zirinus
