@@ -2,10 +2,10 @@
 
 
 
-# Zirinus - main.py - 2023/2/28
+# Zirinus - main.py - 16/9/26
 
-version = "1.0"
-revision = 10
+version = "1.0.1 FINAL"
+revision = 11
 
 zirinus = """
 
@@ -214,7 +214,6 @@ def remove_legacy_components():
 
 def update_check_event():
     remove_legacy_components()
-    print("Checking for updates.. Please wait")
     url = "https://raw.githubusercontent.com/Heisenberg-tr/Zirinus/main/revision.txt"
     try:
         get_revision = requests.get(url).text
@@ -235,7 +234,7 @@ def update_check_event():
         print("Update is finished.")
         exit()
     else:
-        print("Already up-to-date")
+        pass
 
 
     
@@ -650,11 +649,30 @@ def settings_manager_event():
         
 
 
+def goodbye():
+    print("""   Zirinus Is Now Discontinued
+
+When I built this project, I didn't think carefully enough about the potential harm behind it. Zirinus was a tool that violated Discord's Terms of Service and could be misused to harass or spam people. I no longer want to take on that responsibility.
+
+With this update:
+  - The project is permanently disabled for all users.
+  - All existing deployments (including forks, as far as I can reach) have been rendered inoperable.
+  -This repository is now archived and will receive no further development.
+
+
+To anyone who used or came across this project: please don't misuse tools like this. I put effort into this project without fully considering its consequences, and I wanted to make that right.
+
+Thank you, and I'm sorry.
+— heisenberg-tr""")
+    sys.exit()
+
+
 
 def main_event(self = None, mess = None, notify = None):
     clear_terminal_event()
     if self != None:
         update_check_event()
+        goodbye()
     cursor.hide()
     print(fade.fire(zirinus))
     if notify != None:
